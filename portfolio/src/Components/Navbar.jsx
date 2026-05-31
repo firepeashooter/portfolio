@@ -1,10 +1,13 @@
+import { useState } from "react";
 import MobileMenu from "./MobileMenu";
 
 function Navbar() {
 
+	const [isOpen, setIsOpen] = useState(false);
+
 	return (
 
-		<nav className="flex flex-col justify-center items-center min-h-20 p-7 w-screen fixed bg-slate-950 text-slate-100">
+		<nav className="flex flex-col justify-center items-center min-h-20 p-7 w-screen fixed text-slate-100">
 
 			<div className="w-full h-full">
 				{/* THIS IS THE DESKTOP VIEW */}
@@ -35,28 +38,32 @@ function Navbar() {
 						Logo (Mobile View)
 					</div>
 
-					<button className="flex justify-center items-center rounded-md p-2 h-10 w-10 transition-all duration-200 hover:bg-slate-500">
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							fill="none"
-							viewBox="0 0 24 24"
-							strokeWidth={2.9}
-							stroke="currentColor"
-							className="h-5 w-5" // Tailwind sets the icon size here
-						>
-							<path
-								strokeLinecap="round"
-								strokeLinejoin="round"
-								d="M2 3.75h23M2 12h23M2 20.25h23"
-							/>
-						</svg>
+					<button onClick={() => setIsOpen(!isOpen)}
+						className="flex justify-center items-center rounded-md p-2 h-10 w-10 transition-all duration-200 hover:bg-slate-500">
+						{isOpen ? "X" :
+
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								strokeWidth={2.9}
+								stroke="currentColor"
+								className="h-5 w-5">
+								<path
+									strokeLinecap="round"
+									strokeLinejoin="round"
+									d="M2 3.75h23M2 12h23M2 20.25h23"
+								/>
+							</svg>
+						}
+
 					</button>
 
 				</div>
 
 			</div>
 
-			<MobileMenu />
+			<MobileMenu isOpen={isOpen} />
 
 		</nav>
 
