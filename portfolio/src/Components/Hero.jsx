@@ -23,13 +23,9 @@ function Hero() {
 
 			</div>
 
-			<div className="hidden lg:flex justify-center items-center pt-25">
 
-				<img
-					src={rayquazaImg}
-					alt="RAYQUAZA"
-					className="w-64 h-64 rounded-full m-10"
-				/>
+			{/*DESKTOP VERSION */}
+			<div className="hidden lg:flex min-h-[calc(100vh-5rem)] w-screen justify-around items-center pt-25">
 
 				<div className="flex flex-col justify-center items-center">
 
@@ -38,6 +34,11 @@ function Hero() {
 
 				</div>
 
+				<img
+					src={rayquazaImg}
+					alt="RAYQUAZA"
+					className="w-112.5 h-112.5 rounded-full m-10"
+				/>
 			</div>
 		</div>
 
