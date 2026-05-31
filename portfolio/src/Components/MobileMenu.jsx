@@ -3,7 +3,7 @@ function MobileMenu({ isOpen }) {
 
 	return (
 
-		<div className={`h-full w-full m-5 border rounded-md border-slate500 p-5 transition-all duration-300 ease-in-out 
+		<div className={`absolute top-25 left-6 right-6 h-auto border rounded-md border-slate500 p-5 bg-slate-900 transition-all duration-300 ease-in-out 
 			${isOpen ? "opacity-100 translate-y-0 pointer-events-auto" : "bg-transparent opacity-0 -translate-y-2 pointer-events-none"}`} >
 
 			<ul className="flex flex-col gap-7">

@@ -7,11 +7,11 @@ function Navbar() {
 
 	return (
 
-		<nav className="flex flex-col justify-center items-center min-h-20 p-7 w-screen fixed text-slate-100">
+		<nav className="flex flex-col justify-center items-center min-h-20 p-10 w-full fixed bg-slate-900 text-slate-100">
 
 			<div className="w-full h-full">
 				{/* THIS IS THE DESKTOP VIEW */}
-				<div className="hidden lg:flex items-center justify-around w-full h-full">
+				<div className="hidden lg:flex items-center justify-between w-full h-full">
 					<div className=" font-mono text-3xl font-bold">
 						Logo (Desktop)
 					</div>
