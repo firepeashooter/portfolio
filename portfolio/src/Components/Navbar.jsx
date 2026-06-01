@@ -7,7 +7,7 @@ function Navbar() {
 
 	return (
 
-		<nav className="flex flex-col justify-center items-center min-h-20 p-10 w-full fixed bg-slate-900 text-slate-100">
+		<nav className="flex flex-col justify-center items-center min-h-20 p-10 w-full fixed bg-slate-900 text-slate-200">
 
 			<div className="w-full h-full">
 				{/* THIS IS THE DESKTOP VIEW */}
