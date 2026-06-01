@@ -3,6 +3,7 @@ import ProjectCard from './Components/ProjectCard.jsx'
 import Navbar from './Components/Navbar.jsx'
 import Hero from './Components/Hero.jsx'
 import Skills from './Components/Skills.jsx'
+import ProjectsSection from './Components/ProjectsSection.jsx'
 
 function App() {
 
@@ -11,6 +12,8 @@ function App() {
 			<Navbar />
 			<Hero />
 			<Skills />
+			<ProjectsSection />
+
 
 		</div>
 	)
