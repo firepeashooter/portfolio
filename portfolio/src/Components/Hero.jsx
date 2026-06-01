@@ -16,8 +16,8 @@ function Hero() {
 
 				<div className="flex flex-col justify-center items-center">
 
-					<h2 className="text-5xl font-bold m-3">Hi There</h2>
-					<h2 className="text-5xl font-bold m-3">My Name is <span className="text-green-700">Ray</span></h2>
+					<h2 className="text-5xl font-bold m-3 text-center">Hi There</h2>
+					<h2 className="text-5xl font-bold m-3 text-center">My Name is <span className="text-green-700">Ray</span></h2>
 
 				</div>
 
