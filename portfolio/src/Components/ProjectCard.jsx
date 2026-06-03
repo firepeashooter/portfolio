@@ -4,7 +4,7 @@ function ProjectCard() {
 
 	return (
 
-		<div className="flex flex-col items-center justify-start border-2 border-slate-950 rounded-xl bg-slate-300 w-full max-w-100 p-5 m-5 gap-8">
+		<div className="flex flex-col items-center justify-start border-2 border-slate-950 rounded-xl bg-slate-300 w-full max-w-150 min-w-[360px] p-5 m-5 gap-8">
 
 
 			<img
@@ -13,9 +13,9 @@ function ProjectCard() {
 				className="w-full h-full"
 			/>
 
-			<div className="flex gap-2">
+			<div className="flex items-center gap-3">
 
-				<button className="bg-violet-800 rounded-xl text-center">Live Demo</button>
+				<button className="bg-violet-800 rounded-3xl text-center p-3 max-h-15 text-sm font-bold text-slate-200">Live Demo</button>
 
 				<div className="flex flex-col items-center justify-center">
 					<h4 className="font-bold text-2xl text-slate-950">Project 1</h4>
@@ -23,7 +23,7 @@ function ProjectCard() {
 				</div>
 
 
-				<button className="bg-violet-800 rounded-xl text-center">See Code</button>
+				<button className="bg-violet-800 rounded-3xl text-center p-3 max-h-15 text-sm font-bold text-slate-200">See Code</button>
 			</div>
 
 			<div>
