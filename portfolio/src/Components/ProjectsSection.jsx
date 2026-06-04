@@ -14,8 +14,8 @@ const description2 =
 
 
 const projects = [
-	{ projectName: "Terminal Doom", src: DoomTerminal, alt: "Doom running in Terminal", tags: ['C++', 'Bash', 'Terminal'], description: description1 },
-	{ projectName: "Minecraft Terraria", src: MinecraftTerraria, alt: "Minecraft Running in Terraria", tags: ['Minecraft', 'Terraria', 'Gaming'], description: description1 },
+	{ projectName: "Terminal Doom", src: DoomTerminal, alt: "Doom running in Terminal", tags: ['C++', 'Bash', 'Terminal'], description: description1, date: '2025' },
+	{ projectName: "Minecraft Terraria", src: MinecraftTerraria, alt: "Minecraft Running in Terraria", tags: ['Minecraft', 'Terraria', 'Gaming'], description: description2, date: '2022' },
 ]
 
 
@@ -39,6 +39,7 @@ function ProjectsSection() {
 								alt={project.alt}
 								tags={project.tags}
 								description={project.description}
+								date={project.date}
 							/>
 
 						)

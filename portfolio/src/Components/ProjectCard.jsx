@@ -2,7 +2,7 @@ import ProjectTag from './ProjectTag';
 
 
 
-function ProjectCard({ projectName, src, alt, tags, description }) {
+function ProjectCard({ projectName, src, alt, tags, description, date }) {
 
 	return (
 
@@ -21,7 +21,7 @@ function ProjectCard({ projectName, src, alt, tags, description }) {
 
 				<div className="flex flex-col items-center justify-center text-center">
 					<h4 className="font-bold text-2xl text-slate-950">{projectName}</h4>
-					<h5 className="text-slate-950">2025</h5>
+					<h5 className="text-slate-950">{date}</h5>
 				</div>
 
 

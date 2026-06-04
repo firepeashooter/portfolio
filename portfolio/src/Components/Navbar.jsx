@@ -35,7 +35,7 @@ function Navbar() {
 				{/* THIS IS THE DEFAULT MOBILE VIEW */}
 				<div className="flex lg:hidden items-center justify-between w-full h-full">
 					<div className=" font-mono text-3xl font-bold">
-						Logo (Mobile View)
+						Mobile
 					</div>
 
 					<button onClick={() => setIsOpen(!isOpen)}
