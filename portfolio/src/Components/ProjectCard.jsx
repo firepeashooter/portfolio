@@ -12,7 +12,7 @@ function ProjectCard({ projectName, src, alt, tags, description, date }) {
 			<img
 				src={src}
 				alt={alt}
-				className="w-full h-full"
+				className="w-150 h-100 object-cover"
 			/>
 
 			<div className="flex items-center gap-3">

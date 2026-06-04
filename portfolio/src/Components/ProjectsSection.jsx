@@ -51,7 +51,33 @@ function ProjectsSection() {
 			</div>
 
 			{/* DESKTOP VIEW*/}
-			<div className="hidden lg:flex w-screen min-h-400 bg-slate-900">
+			<div className="hidden lg:flex flex-col justify-start items-center p-10 w-screen min-h-400 bg-slate-900">
+
+				<h1 className="text-3xl text-slate-200 font-sans font-bold">Projects </h1>
+
+				<div className="flex">
+
+
+					{
+						projects.map((project, index) => {
+							return (
+
+								<ProjectCard key={index}
+									projectName={project.projectName}
+									src={project.src}
+									alt={project.alt}
+									tags={project.tags}
+									description={project.description}
+									date={project.date}
+								/>
+
+							)
+						})
+					}
+				</div>
+
+
+
 
 			</div>
 
