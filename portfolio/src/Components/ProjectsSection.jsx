@@ -55,7 +55,7 @@ function ProjectsSection() {
 
 				<h1 className="text-3xl text-slate-200 font-sans font-bold">Projects </h1>
 
-				<div className="flex">
+				<div className="flex flex-col">
 
 
 					{

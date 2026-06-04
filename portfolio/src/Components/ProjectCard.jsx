@@ -6,16 +6,16 @@ function ProjectCard({ projectName, src, alt, tags, description, date }) {
 
 	return (
 
-		<div className="flex flex-col items-center justify-start border-2 border-slate-950 rounded-xl bg-slate-300 w-full max-w-150 min-w-[360px] p-5 m-5 gap-4">
+		<div className="flex flex-col items-center justify-start border-2 border-slate-950 rounded-xl bg-slate-300 w-full max-w-150 lg:max-w-300 min-w-[360px] p-5 m-5 gap-4">
 
 
 			<img
 				src={src}
 				alt={alt}
-				className="w-150 h-100 object-cover"
+				className="w-150 h-auto lg:w-full lg:h-full object-contain"
 			/>
 
-			<div className="flex items-center gap-3">
+			<div className="flex items-center gap-5 lg:gap-10">
 
 				<button className="bg-violet-800 rounded-3xl text-center p-3 max-h-15 text-sm font-bold text-slate-200">Live Demo</button>
 
@@ -46,7 +46,7 @@ function ProjectCard({ projectName, src, alt, tags, description, date }) {
 
 			</div>
 
-			<p className='text-slate-950 text-center font-sans'>{description}</p>
+			<p className='text-slate-950 text-center font-sans lg:text-xl'>{description}</p>
 
 
 
