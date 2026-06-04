@@ -1,10 +1,8 @@
-import DoomTerminal from '../assets/doomTerminal.png'
 import ProjectTag from './ProjectTag';
 
-const tags = ['Minecrat', 'Factorio', 'DontStarve']
 
 
-function ProjectCard() {
+function ProjectCard({ projectName, src, alt, tags, description }) {
 
 	return (
 
@@ -12,8 +10,8 @@ function ProjectCard() {
 
 
 			<img
-				src={DoomTerminal}
-				alt="Terminal Doom"
+				src={src}
+				alt={alt}
 				className="w-full h-full"
 			/>
 
@@ -21,8 +19,8 @@ function ProjectCard() {
 
 				<button className="bg-violet-800 rounded-3xl text-center p-3 max-h-15 text-sm font-bold text-slate-200">Live Demo</button>
 
-				<div className="flex flex-col items-center justify-center">
-					<h4 className="font-bold text-2xl text-slate-950">Project 1</h4>
+				<div className="flex flex-col items-center justify-center text-center">
+					<h4 className="font-bold text-2xl text-slate-950">{projectName}</h4>
 					<h5 className="text-slate-950">2025</h5>
 				</div>
 
@@ -47,6 +45,9 @@ function ProjectCard() {
 
 
 			</div>
+
+			<p className='text-slate-950 text-center font-sans'>{description}</p>
+
 
 
 
