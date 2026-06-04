@@ -1,10 +1,14 @@
 import DoomTerminal from '../assets/doomTerminal.png'
+import ProjectTag from './ProjectTag';
+
+const tags = ['Minecrat', 'Factorio', 'DontStarve']
+
 
 function ProjectCard() {
 
 	return (
 
-		<div className="flex flex-col items-center justify-start border-2 border-slate-950 rounded-xl bg-slate-300 w-full max-w-150 min-w-[360px] p-5 m-5 gap-8">
+		<div className="flex flex-col items-center justify-start border-2 border-slate-950 rounded-xl bg-slate-300 w-full max-w-150 min-w-[360px] p-5 m-5 gap-4">
 
 
 			<img
@@ -26,9 +30,24 @@ function ProjectCard() {
 				<button className="bg-violet-800 rounded-3xl text-center p-3 max-h-15 text-sm font-bold text-slate-200">See Code</button>
 			</div>
 
-			<div>
+
+			<div className='flex flex-wrap gap-2 justify-center items-center'>
+
+				{
+					tags.map((tag, index) => {
+						return (
+
+							<ProjectTag key={index}
+								name={tag}
+							/>
+
+						)
+					})
+				}
+
 
 			</div>
+
 
 
 
