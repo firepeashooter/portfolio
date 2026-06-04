@@ -5,6 +5,7 @@ import Hero from './Components/Hero.jsx'
 import Skills from './Components/Skills.jsx'
 import ProjectsSection from './Components/ProjectsSection.jsx'
 import ExperienceSection from './Components/ExperienceSection.jsx'
+import Footer from './Components/Footer.jsx'
 
 function App() {
 
@@ -15,6 +16,8 @@ function App() {
 			<Skills />
 			<ProjectsSection />
 			<ExperienceSection />
+			<Footer />
+
 
 
 
