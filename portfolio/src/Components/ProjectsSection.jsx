@@ -25,7 +25,7 @@ function ProjectsSection() {
 		<div>
 
 			{/* DEFAULT MOBILE VIEW*/}
-			<div className="flex lg:hidden flex-col justify-start items-center w-screen p-10 min-h-400 bg-slate-900">
+			<div className="flex lg:hidden flex-col justify-start items-center w-screen p-10 bg-slate-900">
 
 				<h1 className="text-3xl text-slate-200 font-sans font-bold">Projects </h1>
 
@@ -51,7 +51,7 @@ function ProjectsSection() {
 			</div>
 
 			{/* DESKTOP VIEW*/}
-			<div className="hidden lg:flex flex-col justify-start items-center p-10 w-screen min-h-400 bg-slate-900">
+			<div className="hidden lg:flex flex-col justify-start items-center p-10 w-screen bg-slate-900">
 
 				<h1 className="text-3xl text-slate-200 font-sans font-bold">Projects </h1>
 
