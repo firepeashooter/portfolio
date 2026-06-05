@@ -5,8 +5,7 @@ import ProjectTag from './ProjectTag';
 function ProjectCard({ projectName, src, alt, tags, description, date }) {
 
 	return (
-
-		<div className="flex flex-col items-center justify-start border-2 border-slate-950 rounded-xl bg-slate-300 w-full max-w-150 lg:max-w-250 min-w-[360px] p-5 m-5 gap-4">
+		<div className="flex flex-col items-center justify-start border-2 border-slate-950 rounded-xl bg-slate-300 w-full max-w-150 lg:max-w-280 min-w-[360px] p-5 m-5 gap-4 shadow-xl">
 
 
 			<img
@@ -15,17 +14,17 @@ function ProjectCard({ projectName, src, alt, tags, description, date }) {
 				className="w-150 h-auto lg:w-full lg:h-full object-contain"
 			/>
 
-			<div className="flex items-center gap-5 lg:gap-10">
+			<div className="flex items-center gap-5 lg:gap-20 lg:pt-2">
 
-				<button className="bg-violet-800 rounded-3xl text-center p-3 max-h-15 text-sm font-bold text-slate-200">Live Demo</button>
+				<button className="bg-violet-800 rounded-3xl lg:rounded-4xl text-center p-3 max-h-15 text-sm lg:text-lg lg:p-3.5 font-bold text-slate-200">Live Demo</button>
 
 				<div className="flex flex-col items-center justify-center text-center">
-					<h4 className="font-bold text-2xl text-slate-950">{projectName}</h4>
-					<h5 className="text-slate-950">{date}</h5>
+					<h4 className="font-bold text-2xl lg:text-3xl text-slate-950">{projectName}</h4>
+					<h5 className="text-slate-950 lg:text-xl">{date}</h5>
 				</div>
 
 
-				<button className="bg-violet-800 rounded-3xl text-center p-3 max-h-15 text-sm font-bold text-slate-200">See Code</button>
+				<button className="bg-violet-800 rounded-3xl lg:rounded-4xl text-center p-3 max-h-15 text-sm lg:text-lg lg:p-3.5 font-bold text-slate-200">See Code</button>
 			</div>
 
 
