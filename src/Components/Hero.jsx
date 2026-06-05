@@ -1,4 +1,6 @@
 import rayquazaImg from '../assets/rayquaza.png';
+import TiltImage from './TiltImage.jsx';
+
 
 function Hero() {
 
@@ -29,16 +31,13 @@ function Hero() {
 
 				<div className="flex flex-col justify-center items-center">
 
-					<h2 className="text-5xl font-bold m-3">Hi There</h2>
-					<h2 className="text-5xl font-bold m-3">My Name is <span className="text-green-700">Ray</span></h2>
+					<h2 className="text-7xl font-bold m-3">Hi There</h2>
+					<h2 className="text-7xl font-bold m-3">My Name is <span className="text-green-700">Ray</span></h2>
 
 				</div>
 
-				<img
-					src={rayquazaImg}
-					alt="RAYQUAZA"
-					className="w-112.5 h-112.5 rounded-full m-10"
-				/>
+				<TiltImage src={rayquazaImg} alt="Image of Rayquaza the Pokemon" />
+
 			</div>
 		</div>
 
