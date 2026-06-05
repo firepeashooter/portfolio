@@ -45,7 +45,7 @@ function ExperienceTimeline() {
 
 			</div>
 
-			<div className="hidden lg:block relative w-full max-w-5xl mx-auto py-10">
+			<div className="hidden lg:block relative w-full max-w-7xl mx-auto py-10">
 				{/* THE CENTER LINE */}
 				<div className="absolute left-1/2 top-0 bottom-0 w-2 bg-slate-950 transform -translate-x-1/2 rounded-full" />
 
