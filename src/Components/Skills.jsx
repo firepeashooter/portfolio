@@ -35,7 +35,7 @@ function Skills() {
 			<div className="hidden lg:flex flex-col justify-start items-center p-10 bg-slate-700 w-screen">
 
 				<div>
-					<h1 className="text-3xl text-slate-200 font-sans font-bold">Skills </h1>
+					<h1 className="text-5xl text-slate-200 font-sans font-bold mb-5">Skills </h1>
 				</div>
 
 				<div className="flex">
