@@ -1,4 +1,3 @@
-import rayquazaImg from '../assets/rayquaza.png';
 import TiltImage from './TiltImage.jsx';
 import SquareMe from '../assets/SquareBitmojiMe.png'
 
