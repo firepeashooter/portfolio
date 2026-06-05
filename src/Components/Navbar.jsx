@@ -18,10 +18,26 @@ function Navbar() {
 					<div className="text-3xl font-bold">
 						<ul className="flex gap-7 font-sans">
 
-							<li>About </li>
-							<li>Skills </li>
-							<li>Projects </li>
-							<li>Experience </li>
+							<li>
+								<a href="#hero">
+									About
+								</a>
+							</li>
+							<li>
+								<a href="#skills">
+									Skill
+								</a>
+							</li>
+							<li>
+								<a href="#projects">
+									Projects
+								</a>
+							</li>
+							<li>
+								<a href="#experience">
+									Experience
+								</a>
+							</li>
 
 						</ul>
 					</div>

@@ -12,10 +12,23 @@ function App() {
 	return (
 		<div className="flex min-h-screen flex-col items-center justify-start bg-slate-900 text-white">
 			<Navbar />
-			<Hero />
-			<Skills />
-			<ProjectsSection />
-			<ExperienceSection />
+
+			<section id="hero">
+				<Hero />
+			</section>
+
+			<section id="skills">
+				<Skills />
+			</section>
+
+			<section id="projects">
+				<ProjectsSection />
+			</section>
+
+			<section id="experience">
+				<ExperienceSection />
+			</section>
+
 			<Footer />
 
 
