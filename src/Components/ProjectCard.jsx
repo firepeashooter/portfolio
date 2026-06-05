@@ -6,7 +6,7 @@ function ProjectCard({ projectName, src, alt, tags, description, date }) {
 
 	return (
 
-		<div className="flex flex-col items-center justify-start border-2 border-slate-950 rounded-xl bg-slate-300 w-full max-w-150 lg:max-w-300 min-w-[360px] p-5 m-5 gap-4">
+		<div className="flex flex-col items-center justify-start border-2 border-slate-950 rounded-xl bg-slate-300 w-full max-w-150 lg:max-w-250 min-w-[360px] p-5 m-5 gap-4">
 
 
 			<img
