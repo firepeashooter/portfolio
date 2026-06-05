@@ -6,8 +6,8 @@ function Footer() {
 			<div className="flex flex-col gap-5">
 
 				<h4 className="text-2xl font-sans text-slate-100">Rayquaza's Portfolio Site</h4>
-				<p className="font-sans text-sm text-slate-300">Thank you for checking out my portfolio site!</p>
-				<p className="font-sans text-sm text-slate-300">Inpirational Quote! Connect with me over socials</p>
+				<p className="font-sans text-base text-slate-300">Thank you for checking out my portfolio site!</p>
+				<p className="font-sans text-base text-slate-300">Inpirational Quote! Connect with me over socials</p>
 
 			</div>
 
@@ -27,7 +27,7 @@ function Footer() {
 							clipRule="evenodd"
 						/>
 					</svg>
-					<p className="font-sans text-sm text-slate-300">226-224-9308</p>
+					<p className="font-sans text-base text-slate-300">226-224-9308</p>
 				</div>
 
 				<div className="flex items-center gap-2">
@@ -41,7 +41,7 @@ function Footer() {
 						<path d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z" />
 					</svg>
 
-					<p className="font-sans text-sm text-slate-300">benjamin.braun2003@gmail.com</p>
+					<p className="font-sans text-base text-slate-300">benjamin.braun2003@gmail.com</p>
 				</div>
 
 
