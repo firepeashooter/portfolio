@@ -53,7 +53,7 @@ function ProjectsSection() {
 			{/* DESKTOP VIEW*/}
 			<div className="hidden lg:flex flex-col justify-start items-center p-10 w-screen bg-slate-900">
 
-				<h1 className="text-5xl text-slate-200 font-sans font-bold">Projects </h1>
+				<h1 className="text-5xl text-slate-200 font-sans font-bold mb-5">Projects </h1>
 
 				<div className="flex flex-col">
 
