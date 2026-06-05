@@ -27,15 +27,14 @@ export default function TiltImage({ src, alt }) {
 	return (
 		<div
 			ref={tiltRef}
-			className="inline-block rounded-full shadow-2xl overflow-hidden cursor-pointer bg-neutral-200"
+			className=" max-w-190 max-h-190 rounded-full shadow-2xl overflow-hidden cursor-pointer bg-green-800"
 			style={{ transformStyle: 'preserve-3d' }}
 		>
 			<img
 				src={src}
 				alt={alt}
 				draggable="false"
-				// Jigar uses a circular avatar layout on his hero page
-				className="w-180 h-180 object-cover rounded-full pointer-events-none transition-transform duration-200"
+				className="w-280 h-280 object-cover -translate-y-[180px] -translate-x-[30px] rounded-full pointer-events-none transition-transform duration-200"
 				style={{ transform: 'translateZ(20px)' }} // Forces image to float slightly above its shadow
 			/>
 		</div>
