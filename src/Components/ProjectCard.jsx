@@ -16,12 +16,12 @@ function ProjectCard({ projectName, src, alt, tags, description, date, demoLink,
 
 			<div className="flex items-center gap-5 lg:gap-20 lg:pt-2">
 				<a
-					href="https://www.google.com"
+					href=""
 					target="_blank"
 					rel="noopener noreferrer"
 					className="hover:border-none hover:border-b-0 no-underline"
 				>
-					<button className="bg-violet-800 rounded-3xl lg:rounded-[2rem] text-center p-3 max-h-15 text-sm lg:text-lg lg:p-3.5 font-bold text-slate-200 cursor-pointer transition-all duration-100 ease-out hover:bg-violet-700 hover:scale-[1.02] hover:shadow-lg active:scale-[0.98]">
+					<button disabled className="bg-violet-800 rounded-3xl lg:rounded-[2rem] text-center p-3 max-h-15 text-sm lg:text-lg lg:p-3.5 font-bold text-slate-200 cursor-pointer transition-all duration-100 ease-out hover:bg-violet-700 hover:scale-[1.02] hover:shadow-lg active:scale-[0.98]">
 						Live Demo
 					</button>
 				</a>

@@ -1,19 +1,16 @@
 import ExperienceCard from "./ExperienceCard.jsx"
 
-const description1 = `My time at roblox was wonderful. I was a junior developer
-						for the tycoon game team, I made a lot of tycoon games :)`
+const description1 = `Description`
 
-const description2 = `Netflix was great I just spent all of my time watching shows
-						that I will likley never remember, but still twas cool`
+const description2 = `Description`
 
-const description3 = `Once upon a time i went to burger king high and i was afraid everyone there
-knew i was high so i ordered a burger and long story short eating that burger high changed my life forever`
+const description3 = `Description`
 
 
 const experiences = [
-	{ company: "Roblox", jobTitle: "Junior Developer", timeline: "2020-2021", description: description1 },
-	{ company: "Netflix", jobTitle: "QA Watcher", timeline: "2021-204", description: description2 },
-	{ company: "Burger King", jobTitle: "High Burger", timeline: "10 minutes", description: description2 },
+	{ company: "Queen's University", jobTitle: "Junior Developer/Business Analyst", timeline: "05/2024 - 09/2025", description: description1 },
+	{ company: "Toyota Motor Manufacturing Canada", jobTitle: "Production Worker", timeline: "05/2022 - 09/2022 | 05/2023 - 09/2023", description: description2 },
+	{ company: "Mark's Work Wearhouse", jobTitle: "Sales Associate", timeline: "02/2020 - 09/2021 | 11/2022 - 04/2025", description: description2 },
 ]
 
 function ExperienceTimeline() {

@@ -8,12 +8,15 @@ const description1 =
 	`This portfolio website was made with react and tailwind`
 
 const description2 =
-	`This Portfolio site was made with a combination of minecraft and terraria. Most people naively 
-	assume that terraria is simply a 2d version of minecraft but they are mistaken. Terraria can play doom.`
+	`A TCP server I coded from scratch in C to learn about computer networking`
+
+const description3 =
+	`A project I worked on with a senior machine learning developer at manulife for his phd thesis`
 
 
 const projects = [
 	{ projectName: "TCP Chat Server", src: ChatServer, alt: "A chat server and client running in a terminal", tags: ['C', 'Ncurses', 'Low Level', 'TCP Protocol'], description: description2, date: '2026', gitLink: "https://github.com/firepeashooter/C-Server" },
+	{ projectName: "Synthetic Dataset", tags: ['Python', 'Machine Learning', 'Testing'], description: description3, date: '2023-2024', gitLink: "https://github.com/ricardoluhms/The-True-Game-of-Life" },
 	{ projectName: "Portfolio Website", src: Portfolio, alt: "Portfolio website running in a browser", tags: ['React', 'Tailwind', 'Website'], description: description1, date: '2026', gitLink: "https://github.com/firepeashooter/portfolio" },
 ]
 
