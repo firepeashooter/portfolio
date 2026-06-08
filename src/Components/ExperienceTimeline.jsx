@@ -1,16 +1,27 @@
 import ExperienceCard from "./ExperienceCard.jsx"
 
-const description1 = `Description`
+const description1 = [
+	"During a 16-month internship within the Queen's University IT department, I spearheaded the planning and development of a live Salesforce chatbot built to assist international student applicants.",
+	"Additionally, I led stakeholder requirement gathering sessions to architect and develop a public-facing Graduate Studies Request For Information (RFI) form that securely processes data into our Salesforce backend.",
+	"Supported continuous deployment pipelines by drafting QA and UAT test scripts, while actively documenting and resolving tracking lifecycle bugs inside Azure DevOps."
+];
 
-const description2 = `Description`
-
-const description3 = `Description`
+const description2 = [
+	"At Toyota I worked across multiple summer terms in a high-volume manufacturing environment, adhering to strict standardized work procedures to ensure precision, efficiency, and peak operational safety.",
+	"I was entrusted with training, evaluating, and supervising new hires on complex assembly processes, emphasizing ergonomic safety protocols and the proper handling of heavy power tools.",
+	"I collaborated within cross-functional teams to maintain rigorous quality control benchmarks, troubleshoot equipment line adjustments, and consistently meet strict daily production quotas."
+];
+const description3 = [
+	"At Mark's I delivered high-quality, consultative customer service by actively diagnosing client needs and providing tailored product recommendations, directly contributing to elevated customer satisfaction and store recommendation metrics.",
+	"I also maintained an in-depth knowledge of diverse technical apparel and safety product lines to effectively address customer inquiries and streamline the purchasing process.",
+	"I collaborated closely with team members and management to optimize floor layouts, manage inventory replenishment, and ensure a cohesive, efficient service environment during peak operational hours."
+];
 
 
 const experiences = [
 	{ company: "Queen's University", jobTitle: "Junior Developer/Business Analyst", timeline: "05/2024 - 09/2025", description: description1 },
 	{ company: "Toyota Motor Manufacturing Canada", jobTitle: "Production Worker", timeline: "05/2022 - 09/2022 | 05/2023 - 09/2023", description: description2 },
-	{ company: "Mark's Work Wearhouse", jobTitle: "Sales Associate", timeline: "02/2020 - 09/2021 | 11/2022 - 04/2025", description: description2 },
+	{ company: "Mark's Work Wearhouse", jobTitle: "Sales Associate", timeline: "02/2020 - 09/2021 | 11/2022 - 04/2025", description: description3 },
 ]
 
 function ExperienceTimeline() {
