@@ -1,12 +1,11 @@
 import ProjectCard from "./ProjectCard";
 import DoomTerminal from '../assets/doomTerminal.png'
 import MinecraftTerraria from '../assets/minecraftterraria.jpg'
+import ChatServer from "../assets/ChatServer.png"
+import Portfolio from "../assets/PortfolioWebsite.png"
 
 const description1 =
-	`This is a working version of doom running in a terminal I wrote this library myself
-				using C++ and bash. Took me a pretty long time but now I can play doom when I'm
-				supposed to be doing work and to be honest it's pretty based to just pull up doom itself
-				inside my terminal. W Project.`
+	`This portfolio website was made with react and tailwind`
 
 const description2 =
 	`This Portfolio site was made with a combination of minecraft and terraria. Most people naively 
@@ -14,8 +13,8 @@ const description2 =
 
 
 const projects = [
-	{ projectName: "Terminal Doom", src: DoomTerminal, alt: "Doom running in Terminal", tags: ['C++', 'Bash', 'Terminal'], description: description1, date: '2025' },
-	{ projectName: "Minecraft Terraria", src: MinecraftTerraria, alt: "Minecraft Running in Terraria", tags: ['Minecraft', 'Terraria', 'Gaming'], description: description2, date: '2022' },
+	{ projectName: "TCP Chat Server", src: ChatServer, alt: "A chat server and client running in a terminal", tags: ['C', 'Ncurses', 'Low Level', 'TCP Protocol'], description: description2, date: '2026', gitLink: "https://github.com/firepeashooter/C-Server" },
+	{ projectName: "Portfolio Website", src: Portfolio, alt: "Portfolio website running in a browser", tags: ['React', 'Tailwind', 'Website'], description: description1, date: '2026', gitLink: "https://github.com/firepeashooter/portfolio" },
 ]
 
 
@@ -40,6 +39,7 @@ function ProjectsSection() {
 								tags={project.tags}
 								description={project.description}
 								date={project.date}
+								gitLink={project.gitLink}
 							/>
 
 						)
@@ -69,6 +69,7 @@ function ProjectsSection() {
 									tags={project.tags}
 									description={project.description}
 									date={project.date}
+									gitLink={project.gitLink}
 								/>
 
 							)

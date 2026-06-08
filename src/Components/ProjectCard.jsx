@@ -2,7 +2,7 @@ import ProjectTag from './ProjectTag';
 
 
 
-function ProjectCard({ projectName, src, alt, tags, description, date }) {
+function ProjectCard({ projectName, src, alt, tags, description, date, demoLink, gitLink }) {
 
 	return (
 		<div className="flex flex-col items-center justify-start border-2 border-slate-950 rounded-xl bg-slate-300 w-full max-w-150 lg:max-w-280 min-w-[360px] p-5 m-5 gap-4 shadow-xl">
@@ -33,7 +33,7 @@ function ProjectCard({ projectName, src, alt, tags, description, date }) {
 				</div>
 
 				<a
-					href="https://www.google.com"
+					href={gitLink}
 					target="_blank"
 					rel="noopener noreferrer"
 					className="hover:border-none hover:border-b-0 no-underline"

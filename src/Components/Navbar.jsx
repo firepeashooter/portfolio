@@ -13,7 +13,7 @@ function Navbar() {
 				{/* THIS IS THE DESKTOP VIEW */}
 				<div className="hidden lg:flex items-center justify-between w-full h-full">
 					<div className=" font-mono text-3xl font-bold">
-						Logo (Desktop)
+						Benjamin
 					</div>
 					<div className="text-3xl font-bold">
 						<ul className="flex gap-7 font-sans">
