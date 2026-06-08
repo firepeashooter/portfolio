@@ -25,7 +25,7 @@ function Navbar() {
 							</li>
 							<li>
 								<a href="#skills">
-									Skill
+									Skills
 								</a>
 							</li>
 							<li>
