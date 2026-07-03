@@ -27,7 +27,7 @@ export default function TiltImage({ src, alt }) {
 	return (
 		<div
 			ref={tiltRef}
-			className=" max-w-190 max-h-190 rounded-full shadow-2xl overflow-hidden cursor-pointer bg-green-700"
+			className=" max-w-150 max-h-150 rounded-full shadow-2xl overflow-hidden cursor-pointer bg-green-700"
 			style={{ transformStyle: 'preserve-3d' }}
 		>
 			<img

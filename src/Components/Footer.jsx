@@ -5,9 +5,9 @@ function Footer() {
 		<div className="flex flex-col gap-10 lg:flex-row justify-around items-center w-full p-10">
 			<div className="flex flex-col gap-5">
 
-				<h4 className="text-2xl font-sans text-slate-100">Rayquaza's Portfolio Site</h4>
+				<h4 className="text-2xl font-sans text-slate-100">Ben's Portfolio</h4>
 				<p className="font-sans text-base text-slate-300">Thank you for checking out my portfolio site!</p>
-				<p className="font-sans text-base text-slate-300">Inpirational Quote! Connect with me over socials</p>
+				<p className="font-sans text-base text-slate-300">Be not afraid of growing slowly; be afraid only of standing still.</p>
 
 			</div>
 
