@@ -29,7 +29,10 @@ function App() {
 				<ExperienceSection />
 			</section>
 
-			<Footer />
+			<section id="footer" className='w-full'>
+
+				<Footer />
+			</section>
 
 
 

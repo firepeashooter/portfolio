@@ -43,7 +43,9 @@ function Navbar() {
 					</div>
 
 					<div className="text-3xl font-bold">
-						Contact
+						<a href="#footer">
+							Contact
+						</a>
 					</div>
 
 				</div>
