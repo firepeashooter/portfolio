@@ -34,7 +34,7 @@ export default function TiltImage({ src, alt }) {
 				src={src}
 				alt={alt}
 				draggable="false"
-				className="w-280 h-280 object-cover -translate-y-[180px] -translate-x-[30px] rounded-full pointer-events-none transition-transform duration-200"
+				className="w-280 h-280 object-cover -translate-y-[250px] -translate-x-[0px] rounded-full pointer-events-none transition-transform duration-200"
 				style={{ transform: 'translateZ(20px)' }} // Forces image to float slightly above its shadow
 			/>
 		</div>

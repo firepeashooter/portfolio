@@ -1,5 +1,5 @@
 import TiltImage from './TiltImage.jsx';
-import SquareMe from '../assets/SquareBitmojiMe.png'
+import PictureMe from '../assets/PictureMe.png'
 
 
 function Hero() {
@@ -14,9 +14,9 @@ function Hero() {
 					className="w-70 h-70 rounded-full shadow-2xl overflow-hidden bg-green-800"
 				>
 					<img
-						src={SquareMe}
-						alt="Bitmoji style profile picture of Ben"
-						className="w-100 h-100 object-cover -translate-y-[60px] -translate-x-[10px] rounded-full"
+						src={PictureMe}
+						alt="Picture of Benjamin on the Lake"
+						className="w-100 h-100 object-cover -translate-y-[60px] translate-x-[0px] rounded-full"
 					/>
 				</div>
 
@@ -41,7 +41,7 @@ function Hero() {
 
 				</div>
 
-				<TiltImage src={SquareMe} alt="Bitmoji style profile picture of Ben" />
+				<TiltImage src={PictureMe} alt="Picture of Benjamin on the lake" />
 
 			</div>
 		</div>
