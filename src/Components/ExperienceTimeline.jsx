@@ -19,7 +19,7 @@ const description3 = [
 
 
 const experiences = [
-	{ company: "Queen's University", jobTitle: "Junior Developer/Business Analyst", timeline: "05/2024 - 09/2025", description: description1 },
+	{ company: "Queen's University IT Services", jobTitle: "Junior Developer/Business Analyst", timeline: "05/2024 - 09/2025", description: description1 },
 	{ company: "Toyota Motor Manufacturing Canada", jobTitle: "Production Worker", timeline: "05/2022 - 09/2022 | 05/2023 - 09/2023", description: description2 },
 	{ company: "Mark's Work Wearhouse", jobTitle: "Sales Associate", timeline: "02/2020 - 09/2021 | 11/2022 - 04/2025", description: description3 },
 ]

@@ -10,7 +10,7 @@ export default function TiltImage({ src, alt }) {
 		if (tiltElement) {
 			// Initialize the exact configuration from Jigar's portfolio script
 			VanillaTilt.init(tiltElement, {
-				max: 15,          // Maximum tilt rotation in degrees
+				max: 10,          // Maximum tilt rotation in degrees
 				speed: 400,       // Speed of the enter/exit transition
 				glare: false,      // Adds a premium reflective light effect (optional, looks great!)
 			});
