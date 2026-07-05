@@ -2,7 +2,7 @@ import ProjectTag from './ProjectTag';
 
 
 
-function ProjectCard({ projectName, src, alt, tags, description, date, demoLink, gitLink }) {
+function ProjectCard({ projectName, src, alt, tags, description, date, demoLink, gitLink, hasDemo }) {
 
 	return (
 		<div className="flex flex-col items-center justify-start border-2 border-slate-950 rounded-xl bg-slate-300 w-full max-w-150 lg:max-w-280 min-w-[360px] p-5 m-5 gap-4 shadow-xl">
@@ -15,17 +15,24 @@ function ProjectCard({ projectName, src, alt, tags, description, date, demoLink,
 			/>
 
 			<div className="flex items-center gap-5 lg:gap-20 lg:pt-2">
+
 				<a
-					href=""
+					href={hasDemo ? demoLink : undefined}
 					target="_blank"
 					rel="noopener noreferrer"
-					className="hover:border-none hover:border-b-0 no-underline"
+					className={`hover:border-none hover:border-b-0 no-underline ${!hasDemo ? 'pointer-events-none' : ''}`}
 				>
-					<button disabled className="bg-gray-600 rounded-3xl lg:rounded-[2rem] text-center p-3 max-h-15 text-sm lg:text-lg lg:p-3.5 font-bold text-slate-200">
+					<button
+						disabled={!hasDemo}
+						className={
+							hasDemo
+								? "bg-violet-800 rounded-3xl lg:rounded-[2rem] text-center p-3 max-h-15 text-sm lg:text-lg lg:p-3.5 font-bold text-slate-200 cursor-pointer transition-all duration-100 ease-out hover:bg-violet-700 hover:scale-[1.02] hover:shadow-lg active:scale-[0.98]"
+								: "bg-gray-600 rounded-3xl lg:rounded-[2rem] text-center p-3 max-h-15 text-sm lg:text-lg lg:p-3.5 font-bold text-slate-200 opacity-60"
+						}
+					>
 						Live Demo
 					</button>
 				</a>
-
 
 				<div className="flex flex-col items-center justify-center text-center">
 					<h4 className="font-bold text-2xl lg:text-3xl text-slate-950">{projectName}</h4>

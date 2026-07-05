@@ -28,9 +28,9 @@ const description3 = [
 
 
 const projects = [
-	{ projectName: "TCP Chat Server", src: ChatServer, alt: "A chat server and client running in a terminal", tags: ['C', 'Ncurses', 'Low Level', 'TCP Protocol'], description: description2, date: '2026', gitLink: "https://github.com/firepeashooter/C-Server" },
-	{ projectName: "Synthetic Dataset", tags: ['Python', 'Machine Learning', 'Testing'], description: description3, date: '2023-2024', gitLink: "https://github.com/ricardoluhms/The-True-Game-of-Life" },
-	{ projectName: "Portfolio Website", src: NewPortfolio, alt: "Portfolio website running in a browser", tags: ['React', 'Tailwind', 'Website'], description: description1, date: '2026', gitLink: "https://github.com/firepeashooter/portfolio" },
+	{ projectName: "TCP Chat Server", src: ChatServer, alt: "A chat server and client running in a terminal", tags: ['C', 'Ncurses', 'Low Level', 'TCP Protocol'], description: description2, date: '2026', gitLink: "https://github.com/firepeashooter/C-Server", hasDemo: false },
+	{ projectName: "Synthetic Dataset", tags: ['Python', 'Machine Learning', 'Testing'], description: description3, date: '2023-2024', gitLink: "https://github.com/ricardoluhms/The-True-Game-of-Life", hasDemo: false },
+	{ projectName: "Portfolio Website", src: NewPortfolio, alt: "Portfolio website running in a browser", tags: ['React', 'Tailwind', 'Website'], description: description1, date: '2026', gitLink: "https://github.com/firepeashooter/portfolio", demoLink: "https://firepeashooter.github.io/portfolio/", hasDemo: true },
 ]
 
 
@@ -56,6 +56,8 @@ function ProjectsSection() {
 								description={project.description}
 								date={project.date}
 								gitLink={project.gitLink}
+								demoLink={project.demoLink}
+								hasDemo={project.hasDemo}
 							/>
 
 						)
@@ -86,6 +88,8 @@ function ProjectsSection() {
 									description={project.description}
 									date={project.date}
 									gitLink={project.gitLink}
+									demoLink={project.demoLink}
+									hasDemo={project.hasDemo}
 								/>
 
 							)
