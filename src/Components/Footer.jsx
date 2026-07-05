@@ -3,7 +3,7 @@ import SocialButton from "./SocialButton.jsx"
 function Footer() {
 	return (
 		<div className="flex flex-col gap-10 lg:flex-row justify-around items-center w-full p-10">
-			<div className="flex flex-col gap-5">
+			<div className="flex flex-col gap-5 w-full lg:w-auto">
 
 				<h4 className="text-2xl font-sans text-slate-100">Ben's Portfolio</h4>
 				<p className="font-sans text-base text-slate-300">Thank you for checking out my portfolio site!</p>
@@ -11,7 +11,7 @@ function Footer() {
 
 			</div>
 
-			<div className="flex flex-col gap-3">
+			<div className="flex flex-col gap-3 w-full lg:w-auto">
 				<h4 className="text-2xl font-sans text-slate-100">Contact Information</h4>
 
 				<div className="flex gap-2 items-center">
