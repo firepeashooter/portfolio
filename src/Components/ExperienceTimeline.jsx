@@ -60,10 +60,6 @@ function ExperienceTimeline() {
 				<div className="flex flex-col w-full gap-16">
 					{experiences.map((experience, index) => {
 
-						{/* 💡 THE SECRET SAUCE: 
-                        Index 0 % 2 = 0 (True -> Left side)
-                        Index 1 % 2 = 1 (False -> Right side)
-                        Index 2 % 2 = 0 (True -> Left side) ... and so on */}
 						const isEven = index % 2 === 0;
 
 						return (
