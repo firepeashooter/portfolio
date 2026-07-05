@@ -13,11 +13,9 @@ const description1 =
 
 const description2 =
 	[
-		"This idea was born out of wanting to learn more about how computer networks and servers work. It started as a very basic barebones TCP server that I could send basic messages to and from between different computers. The server itself is written entirely in C using socket(), bind(), listen(), and accept() calls.",
+		"This idea was born out of wanting to learn more about how computer networks and servers work. It started as a barebones TCP server that I could send basic messages to and from between different computers. The server itself is written entirely in C using socket(), bind(), listen(), and accept() calls.",
 
-		"Growing on this idea I decided to make a working chat server that me and my friends could use to talk over our terminals. The server holds an array of Network objects called pollfds which represent the different connections. The first one is always the listener socket that adds new connections to the array, and the subsequent connections send their message with a custom TCP request and header that includes their username, which the server the broadcasts to all the other sockets. I then coded up a simple client with nCurses to display the relevant chat information, aswell as a window where the user can write, edit and send their message to my server.",
-
-		"Overall it was a great learning experience, teaching me more about C and how computers talk to each other using Requests and Responses.",
+		"Growing on this idea I decided to make a working chat server that me and my friends could use to talk over our terminals. It uses TCP requests with custom headers for the username. I then coded up a simple client with nCurses to display the relevant chat information, aswell as a window where the user can write, edit and send their message to my server."
 	]
 
 const description3 = [
