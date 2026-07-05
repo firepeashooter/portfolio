@@ -63,11 +63,18 @@ function ProjectCard({ projectName, src, alt, tags, description, date, demoLink,
 
 			</div>
 
-			<p className='text-slate-950 text-center font-sans lg:text-xl'>{description}</p>
+			<div>
+				{
+					description.map((paragraph, pIndex) => {
+						return (
 
-
-
-
+							<p key={pIndex} className="text-center mb-4 text-slate-950 font-sans lg:text-xl">
+								{paragraph}
+							</p>
+						)
+					})
+				}
+			</div>
 
 		</div>
 	)

@@ -6,37 +6,25 @@ import Portfolio from "../assets/PortfolioWebsite.png"
 import NewPortfolio from "../assets/UpdatedPortfolio.png"
 
 const description1 =
-	`This is a portfolio website used mainly to display my skills and projects as a supplement to my resume. Created in React as
-	that was what I was most familiar with and what I've been using to make all of my web projects recently. This project
-	taught me a lot about tailwind which I was using this project to learn, aswell as a lot of UI design which I was previously
-	unfamiliar with. I'm honestly not sure how I ever did any sort of web development without tailwind because it is really awesome.
+	[
+		" This is a portfolio website used mainly to display my skills and projects as a supplement to my resume. Created in React as	that was what I was most familiar with and what I've been using to make all of my web projects recently. This project taught me a lot about tailwind which I was using this project to learn, aswell as a lot of UI design which I was previously unfamiliar with. I'm honestly not sure how I ever did any sort of web development without tailwind because it is really awesome."
+	]
 
-
-
-
-`
 
 const description2 =
-	`This idea was born out of wanting to learn more about how computer networks and servers work. It started as a very basic
-	barebones TCP server that I could send basic messages to and from between different computers. The server itself is written
-	entirely in C using socket(), bind(), listen(), and accept() calls. Growing on this idea I decided to make a working chat
-	server that me and my friends could use to talk over our terminals. The server holds an array of Network objects called pollfds which represent the different connections. The first one is always the listener socket that adds new connections to the array, and the subsequent connections send their message with a custom TCP request and header that includes their username, which the server the broadcasts to all the other sockets. I then coded up a quick and dirty client in nCurses to display the relevant
-	chat information, aswell as a window where the user can write, edit and send their message to my server.
-	Overall it was a great learning experience, teaching me more about C and how computers talk to each other using Requests and Responses.
+	[
+		"This idea was born out of wanting to learn more about how computer networks and servers work. It started as a very basic barebones TCP server that I could send basic messages to and from between different computers. The server itself is written entirely in C using socket(), bind(), listen(), and accept() calls.",
 
-	`
-const description3 =
-	`This is a project I worked on with a senior machine learning developer at Manulife for his phd thesis. The idea
-	is to create a synthetic dataset in python that represents a city of people that have incomes, jobs, families, all things
-	that can change and grow as the city ages up over the years. It's essentially a simulation of an entire city. The main idea
-	behind this was that we need data to train Machine Learning models, and while it is often difficult to obtain lot's of real data,
-	the thesis was that maybe we can create simulated datasets that are much easier to create and train models on and that sufficeintly
-	represent real world data. For this project I was mainly in charge of testing a lot of the features such as the marriage function,
-	making sure that aging up the city properly progressed everyones lives, and reporting any bugs back to the senior developer.
+		"Growing on this idea I decided to make a working chat server that me and my friends could use to talk over our terminals. The server holds an array of Network objects called pollfds which represent the different connections. The first one is always the listener socket that adds new connections to the array, and the subsequent connections send their message with a custom TCP request and header that includes their username, which the server the broadcasts to all the other sockets. I then coded up a simple client with nCurses to display the relevant chat information, aswell as a window where the user can write, edit and send their message to my server.",
 
+		"Overall it was a great learning experience, teaching me more about C and how computers talk to each other using Requests and Responses.",
+	]
 
+const description3 = [
+	"This is a project I worked on with a senior machine learning developer at Manulife for his phd thesis. The idea is to create a synthetic dataset in python that represents a city of people that have incomes, jobs, families, all things that can change and grow as the city ages up over the years. It's essentially a simulation of an entire city.",
 
-`
+	"The main idea behind this was that we need data to train Machine Learning models, and while it is often difficult to obtain lot's of real data,the thesis was that maybe we can create simulated datasets that are much easier to create and train models on and that sufficeintly represent real world data. For this project I was mainly in charge of testing a lot of the features such as the marriage function,making sure that aging up the city properly progressed everyones lives, and reporting any bugs back to the senior developer."
+]
 
 
 const projects = [

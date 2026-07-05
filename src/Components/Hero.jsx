@@ -3,9 +3,7 @@ import PictureMe from '../assets/PictureMe.png'
 
 
 function Hero() {
-
 	return (
-
 
 		<div>
 			<div className="flex flex-col lg:hidden w-screen min-h-screen justify-around items-center pt-30">
@@ -19,7 +17,6 @@ function Hero() {
 						className="w-100 h-100 object-cover -translate-y-[60px] translate-x-[0px] rounded-full"
 					/>
 				</div>
-
 
 				<div className="flex flex-col justify-center items-center">
 
