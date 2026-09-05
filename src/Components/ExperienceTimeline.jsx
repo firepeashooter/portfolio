@@ -1,5 +1,10 @@
 import ExperienceCard from "./ExperienceCard.jsx"
 
+const description0 = [
+	"Recently started a full-time permanent position at the Queen's University IT Department as a Salesforce Developer."
+
+];
+
 const description1 = [
 	"During a 16-month internship within the Queen's University IT department, I spearheaded the planning and development of a live Salesforce chatbot built to assist international student applicants.",
 	"Additionally, I led stakeholder requirement gathering sessions to architect and develop a public-facing Graduate Studies Request For Information (RFI) form that securely processes data into our Salesforce backend.",
@@ -19,6 +24,7 @@ const description3 = [
 
 
 const experiences = [
+	{ company: "Queen's University IT Services", jobTitle: "Junior Salesforce Administrator", timeline: "09/2026 - Present", description: description0 },
 	{ company: "Queen's University IT Services", jobTitle: "Junior Developer/Business Analyst", timeline: "05/2024 - 09/2025", description: description1 },
 	{ company: "Toyota Motor Manufacturing Canada", jobTitle: "Production Worker", timeline: "05/2022 - 09/2022 | 05/2023 - 09/2023", description: description2 },
 	{ company: "Mark's Work Wearhouse", jobTitle: "Sales Associate", timeline: "02/2020 - 09/2021 | 11/2022 - 04/2025", description: description3 },
