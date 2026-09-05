@@ -15,7 +15,7 @@ const description2 =
 	[
 		"This idea was born out of wanting to learn more about how computer networks and servers work. It started as a barebones TCP server that I could send basic messages to and from between different computers. The server itself is written entirely in C using socket(), bind(), listen(), and accept() calls.",
 
-		"Growing on this idea I decided to make a working chat server that me and my friends could use to talk over our terminals. It uses TCP requests with custom headers for the username. I then coded up a simple client with nCurses to display the relevant chat information, aswell as a window where the user can write, edit and send their message to my server."
+		"Growing on this idea I decided to make a working chat server that me and my friends could use to talk over our terminals. It uses TCP requests with custom headers for the username. I then coded up a simple client with nCurses to display the relevant chat information, aswell as a window where the user can write, edit and send their message to my server.",
 	]
 
 const description3 = [
@@ -24,8 +24,15 @@ const description3 = [
 	"The main idea behind this was that we need data to train Machine Learning models, and while it is often difficult to obtain lot's of real data,the thesis was that maybe we can create simulated datasets that are much easier to create and train models on and that sufficeintly represent real world data. For this project I was mainly in charge of testing a lot of the features such as the marriage function,making sure that aging up the city properly progressed everyones lives, and reporting any bugs back to the senior developer."
 ]
 
+const description4 = [
+	"A relatively simple AI agent that intelligently navigates, fills out, and submits most online browser forms. Simply tell the agent how you want to the form to filled out, and it will fill out and submit the form for you. It uses a suite of Playwright tools for handling things like radio buttons, input fields, multi select menus as well as clicking buttons to navigate to new pages of a form.",
+
+	"On top of the basic functionality, I had a lot of fun integrating a RESTful API with an express server that allows external applications to trigger the AI Agent automatically, as well as a feature to run the AI agent at regular scheduled times making use of node-cron."
+]
+
 
 const projects = [
+	{ projectName: "Autonomous AI Browser Agent", tags: ['Gemini API', 'Playwright', 'Express.js', 'Vercel AI SDK', 'REST API', 'Web Automation'], description: description4, date: '2026', gitLink: "https://github.com/firepeashooter/magical-ai-agent-take-home", hasDemo: false },
 	{ projectName: "TCP Chat Server", src: ChatServer, alt: "A chat server and client running in a terminal", tags: ['C', 'Ncurses', 'Low Level', 'TCP Protocol'], description: description2, date: '2026', gitLink: "https://github.com/firepeashooter/C-Server", hasDemo: false },
 	{ projectName: "Synthetic Dataset", tags: ['Python', 'Machine Learning', 'Testing'], description: description3, date: '2023-2024', gitLink: "https://github.com/ricardoluhms/The-True-Game-of-Life", hasDemo: false },
 	{ projectName: "Portfolio Website", src: NewPortfolio, alt: "Portfolio website running in a browser", tags: ['React', 'Tailwind', 'Website'], description: description1, date: '2026', gitLink: "https://github.com/firepeashooter/portfolio", demoLink: "https://firepeashooter.github.io/portfolio/", hasDemo: true },
