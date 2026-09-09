@@ -25,9 +25,9 @@ const description3 = [
 ]
 
 const description4 = [
-	"A relatively simple AI agent that intelligently navigates, fills out, and submits most online browser forms. Simply tell the agent how you want to the form to filled out, and it will fill out and submit the form for you. It uses a suite of Playwright tools for handling things like radio buttons, input fields, multi select menus as well as clicking buttons to navigate to new pages of a form.",
+	"An AI agent that intelligently navigates, fills out, and submits most online browser forms. The agent takes in a prompt containing instructions on how to fill out the form, and uses a suite of Playwright tools for handling things like radio buttons, input fields, multi select menus including clicking buttons to navigate to and submit new pages of a form.",
 
-	"On top of the basic functionality, I had a lot of fun integrating a RESTful API with an express server that allows external applications to trigger the AI Agent automatically, as well as a feature to run the AI agent at regular scheduled times making use of node-cron."
+	"On top of the basic functionality, I had a lot of fun integrating a RESTful API with an Express server that allows external applications to trigger the AI Agent automatically, as well as a feature to run the AI agent at regular scheduled times making use of node-cron."
 ]
 
 
